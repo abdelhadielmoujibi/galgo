@@ -13,7 +13,7 @@ const ResultContextProvider = ({ children }) => {
         method: "GET",
         headers: {
           "x-rapidapi-key":
-            "983915238fmsh0c3a41341a18ea6p12af53jsn9e9cddb56a86",
+            "VITE_API_KEY",
           "x-rapidapi-host": "google-search74.p.rapidapi.com",
         },
       },
